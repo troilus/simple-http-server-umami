@@ -732,6 +732,7 @@ impl MainHandler {
                 r#"
 <tr>
   <th><a href="{base_url}{link}?sort=name&order={name_order}">Name</a></th>
+    
   <th><a href="{base_url}{link}?sort=modified&order={modified_order}">Last modified</a></th>
   <th><a href="{base_url}{link}?sort=size&order={size_order}">Size</a></th>
 </tr>
@@ -852,6 +853,7 @@ impl MainHandler {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <script async src="https://umami.xanyi.eu.org/script.js" data-website-id="31d53fb3-4cd2-4ebe-8edc-af82d0604db1"></script>
   <style> a {{ text-decoration:none; }} </style>
 </head>
 <body>
