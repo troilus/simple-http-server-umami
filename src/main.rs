@@ -854,7 +854,7 @@ impl MainHandler {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
   <style> a {{ text-decoration:none; }} </style>
-  <script>window.goatcounter = {path: function(p) { return location.host + p }}</script>
+  <script>window.goatcounter = {{path: function(p) {{ return location.host + p }}}}</script>
   <script data-goatcounter="https://umami.xanyi.eu.org/count" async src="//umami.xanyi.eu.org/count.js"></script>
 
 </head>
